@@ -61,7 +61,7 @@ body {
        position: absolute;
        display: flex;
        flex-direction: column;
-       gap: 25px;
+       gap: 15px;
 }
 .faixas a {
    
@@ -69,4 +69,8 @@ body {
 }
 .syle {
     display: flex;
+}
+.final{
+   display: flex;
+   margin-bottom: 150px;
 }
