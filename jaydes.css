@@ -1,0 +1,51 @@
+body {
+    background-color:#000000;
+    font-family:'Times New Roman', Times, serif;
+    color: beige;
+    margin: 0;
+    padding: 20px;
+    word-spacing: 0.2px;
+    font-size: 18px;
+}
+.titulo {
+   text-align: left;
+   font-size: 18px;
+   color: rgb(226, 43, 134);
+   font-family: Arial, Helvetica, sans-serif;
+} 
+.subtitulo {
+   text-align: left;
+   font-size: 12px;
+   color: rgb(226, 43, 134);
+   font-family: Arial, Helvetica, sans-serif;
+}
+.syle {
+   display: flex
+}
+.albuns {
+    display: flex;
+}
+.albuns img{
+   width:220px;
+   height:220px;
+
+}
+.albuns figcaption{
+   color:  rgb(226, 43, 134);
+   font-size: 16px;
+   text-align: center;
+   font-weight: bolder;
+}
+.faixas {
+   font-size: 16px;
+   font-weight: bolder;
+}
+.faixas ol {
+       padding-left: 20px;
+       display: flex;
+       flex-direction: column;
+       gap: 15px;
+}
+.faixas a {
+    color:beige;
+}
